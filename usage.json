@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "package": "@x12i/memorix-docs",
+  "packageVersion": "1.2.0",
+  "npmUrl": "https://www.npmjs.com/package/@x12i/memorix-docs",
+  "usageRepository": "https://github.com/x12i-sdk/memorix",
+  "sourceRepository": null,
+  "sourceCommit": null,
+  "sourcePackageDirectory": null,
+  "example": {
+    "title": "List the bundled guides and read a use case",
+    "entrypoint": "src/index.mjs",
+    "command": "npm start",
+    "requiresCredentials": false,
+    "validation": "passed",
+    "validatedAt": "2026-10-24T13:03:28.940502+00:00",
+    "isolatedInstallation": true,
+    "sourceSha256": "de14de70f7d06c66a32248cdd5c9ab70c98abfd1a6b655f4bd38af9b7a56b32c",
+    "manifestSha256": "c9f01696e79ad4aadeefe6939f5d62c3096aab67ab3a096ccc57d0112f32bb5b"
+  },
+  "npmPackages": [
+    "@x12i/memorix-docs"
+  ],
+  "publisher": "x12i-publisher[bot]"
+}
