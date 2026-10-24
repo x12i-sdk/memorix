@@ -13,13 +13,31 @@
     "command": "npm start",
     "requiresCredentials": false,
     "validation": "passed",
-    "validatedAt": "2026-10-24T13:03:28.940502+00:00",
+    "validatedAt": "2026-10-24T15:11:37.920270+00:00",
     "isolatedInstallation": true,
     "sourceSha256": "de14de70f7d06c66a32248cdd5c9ab70c98abfd1a6b655f4bd38af9b7a56b32c",
-    "manifestSha256": "c9f01696e79ad4aadeefe6939f5d62c3096aab67ab3a096ccc57d0112f32bb5b"
+    "manifestSha256": "1c08affd81aa2db9a7fbfb6e9fcc8b40c9159715bee5bac55e971dc7ed59548a"
   },
   "npmPackages": [
     "@x12i/memorix-docs"
   ],
-  "publisher": "x12i-publisher[bot]"
+  "publisher": "x12i-publisher[bot]",
+  "additionalExamples": {
+    "@x12i/memorix": {
+      "packageVersion": "1.32.0",
+      "title": "Validate a physical content collection and build a namespace filter",
+      "entrypoint": "src/memorix-example.mjs",
+      "command": "npm run example:memorix",
+      "requiresCredentials": false,
+      "validation": "passed",
+      "isolatedInstallation": true,
+      "sourceSha256": "7d93f5c9ddaae57218112d5b04fc73c2808a6f62f6272fc06e5c0af5197ec3c2",
+      "manifestSha256": "1c08affd81aa2db9a7fbfb6e9fcc8b40c9159715bee5bac55e971dc7ed59548a",
+      "validatedAt": "2026-10-24T15:11:37.920270+00:00"
+    }
+  },
+  "validationFiles": {
+    "src/index.mjs": "de14de70f7d06c66a32248cdd5c9ab70c98abfd1a6b655f4bd38af9b7a56b32c",
+    "src/memorix-example.mjs": "7d93f5c9ddaae57218112d5b04fc73c2808a6f62f6272fc06e5c0af5197ec3c2"
+  }
 }

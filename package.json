@@ -2,14 +2,15 @@
   "name": "memorix-usage",
   "version": "1.0.0",
   "private": true,
-  "description": "Usage example for @x12i/memorix-docs: list the bundled guides and read a use case.",
+  "description": "Tested consuming examples for @x12i/memorix-docs, @x12i/memorix",
   "type": "module",
   "engines": {
     "node": ">=24"
   },
   "scripts": {
     "start": "node src/index.mjs",
-    "check": "node --check src/index.mjs"
+    "check": "node --check src/index.mjs",
+    "example:memorix": "node src/memorix-example.mjs"
   },
   "devDependencies": {
     "@x12i/memorix-docs": "1.2.0"
@@ -18,5 +19,8 @@
     "type": "git",
     "url": "https://github.com/x12i-sdk/memorix.git"
   },
-  "homepage": "https://www.npmjs.com/package/@x12i/memorix-docs"
+  "homepage": "https://www.npmjs.com/package/@x12i/memorix-docs",
+  "dependencies": {
+    "@x12i/memorix": "1.32.0"
+  }
 }
